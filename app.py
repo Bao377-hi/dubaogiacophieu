@@ -164,7 +164,7 @@ def run_analysis(df, horizon, epochs):
         )
 
     # Chia theo thời gian, không xáo trộn dữ liệu
-    split = int(n * 0.😎
+    split = int(n * 0.8)
 
     # Đánh giá trên 20% dữ liệu cuối
     scaler_test = MinMaxScaler()
